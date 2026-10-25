@@ -1,0 +1,149 @@
+
+html, body {
+    min-width: 100%;
+    margin: 0%;
+    height:100%
+        
+}
+body{
+    min-height: 100%;
+    min-width: 100%;
+}
+@font-face
+{
+    font-family: 'Sparkly';
+    src: url('FontdinerdotcomSparkly.ttf');
+}
+h2, header
+{
+font-family: 'Sparkly' ;
+
+}
+h3
+{
+font-family: 'Sparkly' ;
+display: inline;
+font-size: 3.75vw;
+color: #A289B0"
+
+}
+
+h4{
+    display: inline;
+
+}
+
+a { 
+    color: inherit; 
+  }
+
+p
+{
+font-family: 'Franklin Gothic Medium';
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #195DB0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.125vw;
+}
+
+.sidenav a {
+  padding: 0.417vw 0.417vw 0.417vw 1.667vw;
+  text-decoration: none;
+  font-size: 1.302vw;
+  color: #340B4D;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1.302vw;
+  font-size: 1.875vw;
+  margin-left: 2.604vw;
+}
+
+@media screen and (max-height: 23.438vw) {
+  .sidenav {padding-top: 0.781vw;}
+  .sidenav a {font-size: 0.938vw;}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 1.667vw;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 0.208vw;
+  margin: 2.953vw;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 0.26vw;
+}
+
+.column img {
+  margin-top: 0.417vw;
+  vertical-align: middle;
+  width: 100%;
+}
+
+h5
+{
+    font-family: Georgia;
+}
+@font-face
+{
+    font-family: 'pixel';
+    src: url('Pixel Game.otf');
+}
+h6
+{
+    margin: 1.968vw;
+   font-family: Georgia ;
+
+}
+
+/*<button onclick="work.html"> Back to My Works!</button> */
+
+ button {
+        background-color: #CFB8DB;
+        border: 0.026vw #0B0212;
+        border-radius: 0.521vw;
+        color: #230433;
+        padding: 0.417vw;
+      }
+
+
+
+
+
